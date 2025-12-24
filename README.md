@@ -3,10 +3,10 @@
 An Intelligent Machine Learning solution to identify and classify malicious URLs. This project uses advanced classification algorithms to distinguish between legitimate and phishing websites, helping users stay safe online.
 
 ## 📌 Table of Contents
-* [🚀 Features](#features)
-* [📊 Model Performance](#model-performance)
-* [🛠️ Tech Stack](#tech-stack)
-* [📋 Installation & Setup](#installation--setup)
+* [🚀 Features](#-features)
+* [📊 Model Performance](#-model-performance)
+* [🛠️ Tech Stack](#-tech-stack)
+* [📋 Installation & Setup](#-installation--setup)
 
 ## 🚀 Features
 * **Detection Engine:** Powered by the *YSentry Security Engine* 🛡️.
@@ -22,7 +22,6 @@ An Intelligent Machine Learning solution to identify and classify malicious URLs
 * **Framework:** Streamlit 🖥️
 * **Language:** Python 🐍
 * **ML Libraries:** Scikit-learn, Pandas, NumPy 🧪
-* **Development:** Jupyter Notebook 📓 (For Data Analysis & Model Training)
 
 ## 📋 Installation & Setup
 
