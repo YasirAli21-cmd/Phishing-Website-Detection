@@ -31,9 +31,9 @@ With the rapid growth of online services, phishing websites have become one of t
 Phishing attacks are increasing every year, and most users lack the technical knowledge to identify fake or malicious websites. Traditional blacklist-based solutions fail to detect newly created phishing URLs, leaving users vulnerable.
 
 The challenge is to build an intelligent system that can:
-- Detect phishing websites in real time  
-- Analyze URLs based on patterns rather than static lists  
-- Provide clear and understandable results to non-technical users  
+- Detect phishing websites in real time.
+- Analyze URLs based on patterns rather than static lists.
+- Provide clear and understandable results to non-technical users.
 
 YSENTRY addresses this problem by using Machine Learning to classify URLs based on their structural and lexical characteristics.
 
@@ -41,7 +41,7 @@ YSENTRY addresses this problem by using Machine Learning to classify URLs based 
 
 ## 🚀 Getting Started <a name="getting-started"></a>
 
-Follow the steps below to run YSENTRY locally.
+Follow the steps below to run YSENTRY locally:
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -62,17 +62,17 @@ pip install -r requirements.txt
 🛠️ Tech Stack & Libraries <a name="tech-stack--libraries"></a>
 YSENTRY is developed using the following technologies:
 
-🐍 Python 3.13+ – Core programming language
+🐍 Python 3.13+ – Core programming language.
 
-🔥 Flask – Backend web framework
+🔥 Flask – Backend web framework.
 
-📊 Scikit-learn – Machine Learning model training and prediction
+📊 Scikit-learn – Machine Learning model training and prediction.
 
-🧪 Pandas – Data preprocessing and handling
+🧪 Pandas – Data preprocessing and handling.
 
-🔢 NumPy – Numerical computations
+🔢 NumPy – Numerical computations.
 
-🌐 Requests – URL and SSL validation
+🌐 Requests – URL and SSL validation.
 
 💻 Project Execution <a name="project-execution"></a>
 Run the Flask application using the following command:
@@ -80,25 +80,23 @@ Run the Flask application using the following command:
 Bash
 
 python app.py
-Once the server starts, open your browser and visit: http://127.0.0.1:5000
-
-You will be redirected to the YSENTRY dashboard.
+Once the server starts, open your browser and visit: http://127.0.0.1:5000.
 
 🧠 Model Logic & Technical Details <a name="model-logic--technical-details"></a>
 🔹 Machine Learning Algorithm
-Multinomial Naive Bayes Selected due to its high efficiency and performance in text-based classification tasks such as URL analysis.
+Multinomial Naive Bayes was selected due to its high efficiency and performance in text-based classification tasks such as URL analysis.
 
 🔹 Feature Engineering
 The system performs lexical analysis on URLs, including:
 
-URL length analysis
+URL length.
 
-Frequency of special characters (@, ?, -, .)
+Frequency of special characters (@, ?, -, .).
 
-Domain and protocol patterns
+Domain and protocol patterns.
 
 🔹 Vectorization
-URLs are transformed into numerical vectors using a trained vectorizer.pkl. This enables statistical probability-based classification.
+URLs are transformed into numerical vectors using a trained vectorizer.pkl, enabling statistical probability-based classification.
 
 🔹 Dataset & Accuracy
 Trained on 21,000+ phishing and legitimate URLs.
@@ -141,8 +139,4 @@ Planned improvements for upcoming versions of YSENTRY:
 🛡️ Live threat intelligence feeds.
 
 👨‍💻 Author <a name="author"></a>
-Yasir Ali IT Enthusiast | © 2025 YSENTRY
-
-🔗 GitHub
-
-💼 LinkedIn
+Yasir Ali | IT Enthusiast | © 2025 YSENTRY
