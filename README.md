@@ -1,4 +1,4 @@
-# 🛡️ YSENTRY – Phishing Website Detection System
+🛡️ YSENTRY – Phishing Website Detection System
 
 **Empowering Digital Safety through Intelligent Machine Learning Analysis**
 
@@ -29,11 +29,6 @@ With the rapid growth of online services, phishing websites have become one of t
 ## 🎯 Problem Statement <a name="problem-statement"></a>
 
 Phishing attacks are increasing every year, and most users lack the technical knowledge to identify fake or malicious websites. Traditional blacklist-based solutions fail to detect newly created phishing URLs, leaving users vulnerable.
-
-The challenge is to build an intelligent system that can:
-- Detect phishing websites in real time.
-- Analyze URLs based on patterns rather than static lists.
-- Provide clear and understandable results to non-technical users.
 
 YSENTRY addresses this problem by using Machine Learning to classify URLs based on their structural and lexical characteristics.
 
@@ -89,7 +84,7 @@ Multinomial Naive Bayes was selected due to its high efficiency and performance 
 🔹 Feature Engineering
 The system performs lexical analysis on URLs, including:
 
-URL length.
+URL length analysis.
 
 Frequency of special characters (@, ?, -, .).
 
